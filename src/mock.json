@@ -1,0 +1,25 @@
+[
+  {
+    "image": "../src/assets/features_3.png",
+    "title": "гора",
+    "id": 1
+  },
+  {
+    "image": "../src/assets/features_3.png",
+    "title": "москва сити",
+    "id": 2
+
+  },
+  {
+    "image": "../src/assets/features_3.png",
+    "title": "матвеевский лес",
+    "id": 3
+
+  },
+  {
+    "image": "../src/assets/features_3.png",
+    "title": "район раменки",
+    "id": 4
+
+  }
+]

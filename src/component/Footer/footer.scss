@@ -1,0 +1,102 @@
+.footer {
+  background: rgba(255, 255, 255, 1);
+
+  &-title {
+    padding: 60px 0 20px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid rgba(234, 227, 217, 1);
+
+    &-text {
+      max-width: 773px;
+
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 40px;
+      letter-spacing: -1px;
+      text-align: left;
+    }
+  }
+
+  &-nav {
+    max-width: 570px;
+
+    display: flex;
+
+    &-logo {
+      padding: 61px 0 40px 0;
+
+      border-bottom: 1px solid rgba(234, 227, 217, 1);
+    }
+
+    &-adress {
+      display: flex;
+      gap: 40px;
+
+      padding: 12px 0 40px 0;
+
+      border-bottom: 1px solid rgba(234, 227, 217, 1);
+
+      & h4 {
+        max-width: 163px;
+
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+      }
+
+      & h3 {
+        max-width: 367px;
+
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+      }
+    }
+
+    &-number {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+
+      padding: 12px 0 120px 0;
+
+      & h3 {
+        max-width: 163px;
+
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+      }
+
+      & p {
+        max-width: 185px;
+
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+      }
+
+      & li {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+        color: rgba(160, 167, 71, 1);
+      }
+    }
+  }
+}

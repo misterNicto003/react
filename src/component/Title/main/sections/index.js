@@ -1,0 +1,12 @@
+export { default as Section1 } from "../sections/Section1";
+export { default as Section2 } from "../sections/Section2";
+export { default as Section3 } from "../sections/Section3";
+export { default as Section4 } from "../sections/Section4";
+export { default as Section5 } from "../sections/Section5";
+export { default as Section6 } from "../sections/Section6";
+export { default as Section7 } from "../sections/Section7";
+export { default as Section8 } from "../sections/Section8";
+export { default as Section9 } from "../sections/Section9";
+export { default as Section10 } from "../sections/Section10";
+export { default as Section11} from "../sections/Section11";
+export { default as Section12} from "../sections/Section12";

@@ -1,0 +1,116 @@
+.header {
+  margin: 20px 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-logo {
+      display: flex;
+      gap: 20px;
+
+      max-width: 329px;
+
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.8px;
+    }
+
+    &-number {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      & li {
+        color: #a0a747;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.02em;
+
+        margin-top: 4px;
+      }
+
+      & p {
+        font-family: "TT Travels";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.02em;
+
+        text-decoration: underline gray;
+      }
+    }
+  }
+  &-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+
+    &-img {
+      max-width: 214px;
+    }
+    & p {
+      font-family: Helvetica Neue;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: -0.01em;
+      text-align: center;
+      color: rgba(26, 26, 26, 1);
+      border-bottom: 2px solid rgba(160, 167, 71, 1);
+    }
+  }
+
+  &-logo {
+    position: relative;
+
+    min-width: 1180px;
+    max-height: 806px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+
+    &-img {
+      width: 100%;
+      margin-top: 48px;
+    }
+
+    &-premy {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+
+      max-width: 193px;
+      padding: 16px 12px 16px 12px;
+      gap: 8px;
+      border-radius: 5px;
+
+      background: #fff;
+
+      & img {
+        width: 30px;
+        height: 30px;
+      }
+
+      & p {
+        font-family: TT Travels;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 17.6px;
+        letter-spacing: -0.04em;
+        text-align: center;
+      }
+    }
+  }
+}
